@@ -26,7 +26,7 @@ E1=tk.Entry(root,bd=5)
 E1.pack(side=tk.TOP)
 
 
-button=tk.Button(root,text="Download",fg="blue",command=downloadVid   )
+button=tk.Button(root,text="Download",fg="red",command=downloadVid   )
 button.pack(side=tk.BOTTOM)
 
 root.mainloop()
